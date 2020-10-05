@@ -241,9 +241,6 @@
         for (let i = 0; i < cart.length; i += 1) {
           total += cart[i].price * cart[i].qty
         }
-				if(!cart.length) {
-					return "No items in cart."
-				}
         return total.toFixed(2)
       }
 
